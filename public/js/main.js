@@ -1,4 +1,5 @@
 //if we're using app.get and app.post in server.js, why do we need to fetch?
+// we made api in server.js, and use this to fetch that info
 
 fetch('/api/tweets', {
     method: 'GET',
